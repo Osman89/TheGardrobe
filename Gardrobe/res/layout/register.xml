@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gardrop"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+    <ImageView
+        android:id="@+id/ivPCam"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/camera_icon_hi" />
+
+    <EditText
+        android:id="@+id/etEmail2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/grey_gradient"
+        android:ems="10"
+        android:textColor="#ee2c2c"
+        android:hint="Eposta"
+        android:inputType="textEmailAddress"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etSifre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/grey_gradient"
+        android:ems="10"
+        android:textColor="#ee2c2c"
+        android:hint="Şifre"
+        android:inputType="textVisiblePassword"
+        android:textSize="15dp" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/grey_gradient"
+        android:ems="10"
+        android:textColor="#ee2c2c"
+        android:hint="Adınız"
+        android:inputType="textPersonName"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etSoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/grey_gradient"
+        android:ems="10"
+        android:textColor="#ee2c2c"
+        android:hint="Soyadınız"
+        android:inputType="textPersonName"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/bKayit2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/red_button"
+        android:text="Kayıt Ol"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bGiris2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blue_button"
+        android:text="Giriş Yap"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

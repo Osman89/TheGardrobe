@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginTop="35dp"
+    android:background="@drawable/post_border_style"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/kutu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/post_background_style"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/post_background_style"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:id="@+id/tvgardrobe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:text="En Sevdiklerim"
+                android:clickable="true"
+                android:textColor="#ee2c2c" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivgardrobe"
+            android:layout_width="215dp"
+            android:layout_height="320dp"
+            android:src="@drawable/milla1" />
+    </LinearLayout>
+
+</LinearLayout>
